@@ -1,0 +1,10 @@
+---
+# Plugin language, current supported: vie, eng
+language: eng
+
+# Do not change this value if you don't know how it's work
+checkpos: true
+
+# Timezone use to checking time, list of available timezone: https://www.php.net/manual/en/timezones.php
+timezone: Asia/Ho_Chi_Minh
+...

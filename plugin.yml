@@ -1,0 +1,17 @@
+---
+name: Parkour
+main: deveworld\parkour\Parkour
+src-namespace-prefix: deveworld\parkour
+version: 0.0.1
+api: 5.0.0
+authors: [deveworld, ElcoNguyenVuong]
+
+commands:
+  parkour:
+    description: Parkour system
+    permission: parkour.command.use
+
+permissions:
+  parkour.command.use:
+    default: true
+...
