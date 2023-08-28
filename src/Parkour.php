@@ -167,7 +167,7 @@ class Parkour extends PluginBase implements Listener
         }
     }
 
-    public static function sendFloatingText(array $parkours = [], array $players = []): void
+    public static function sendFloatingText(array $parkours = [], ?array $players = null): void
     {
         if($parkours !== []) {
             foreach($parkours as $parkour) {
